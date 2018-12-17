@@ -1,4 +1,4 @@
-package ByteConverter;
+package byteConverter;
 
 public class ByteConverter {
 

@@ -1,6 +1,6 @@
-package Karoliukai;
+package karoliukai;
 
-import static Karoliukai.Karoliukai.EMPTY;
+import static karoliukai.Karoliukai.EMPTY;
 
 public class KaroliukaiTest {
 

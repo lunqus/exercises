@@ -1,6 +1,6 @@
-package ByteConverter;
+package byteConverter;
 
-// import com.vcs.lects.l04.tasks.ByteConverter;
+// import com.vcs.lects.l04.tasks.byteConverter;
 
 public class ByteConverterTest {
 

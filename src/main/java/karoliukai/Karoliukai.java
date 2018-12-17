@@ -1,4 +1,4 @@
-package Karoliukai;
+package karoliukai;
 
 public class Karoliukai {
 
@@ -45,7 +45,7 @@ public class Karoliukai {
      *
      * </pre>
      *
-     * Karoliukai turi "sukristi" žemyn, bet jei buvo tarpų tarp karoliukų - jie
+     * karoliukai turi "sukristi" žemyn, bet jei buvo tarpų tarp karoliukų - jie
      * turi išlikti.
      *
      * @param data
