@@ -1,4 +1,4 @@
-package Draw;
+package draw;
 
 public class UnitedStates {
 
