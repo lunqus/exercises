@@ -7,6 +7,7 @@ public class MainAnimal {
         Dog myDog = new Dog();
 
         myDog.makeSound();
+        myDog.makeSound("Wooff!");
 
     }
 

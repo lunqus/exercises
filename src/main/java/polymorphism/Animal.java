@@ -7,4 +7,8 @@ public class Animal {
         System.out.println("grrrr");
     }
 
+    public void makeSound(String soundType) {
+        System.out.println(soundType);
+    }
+
 }
