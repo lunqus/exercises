@@ -7,7 +7,7 @@ public class JavaArrays {
         // Arrays
         int[] arrInts       = {2,4,5,8};
         String[] arrStrings = {"Johna", "Arao", "Ines", "Olga", "Fina"};
-        boolean [] arrBools = {true, false, true, false};
+        boolean[] arrBools = {true, false, true, false};
 
 
         // Retrieves values by the index
@@ -36,6 +36,12 @@ public class JavaArrays {
 
             System.out.println("Output: " + arrBools[i]);
         }
+
+        System.out.println("------------ ------------");
+
+        // New empty arrays with 5 elements (or empty spots) inside of it
+        int[] newArray          = new int[5];
+        String[] newStringArray = new String[5];
 
     }
 
