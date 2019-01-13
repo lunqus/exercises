@@ -13,10 +13,18 @@ public class JavaArrayList {
         animals.add("Cat");
         animals.add("Donkey");
 
+        System.out.println("Size: " + animals.size());
+        System.out.println("----------");
+
         for (int i = 0; i < animals.size(); i++) {
             System.out.println("Animals: " + animals.get(i));
         }
 
-        System.out.println("Size: " + animals.size());
+        System.out.println("----------");
+
+        for (String animal : animals) {
+            System.out.println("Animals: " + animal);
+        }
+
     }
 }
