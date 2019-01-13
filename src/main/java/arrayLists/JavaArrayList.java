@@ -26,5 +26,15 @@ public class JavaArrayList {
             System.out.println("Animals: " + animal);
         }
 
+        System.out.println("----------");
+
+        if ( animals.isEmpty()) {
+            System.out.println("Animals is empty!");
+        } else {
+            for (String animal : animals) {
+                System.out.println("Animals: " + animal);
+            }
+        }
+
     }
 }
