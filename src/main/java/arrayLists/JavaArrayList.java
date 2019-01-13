@@ -28,6 +28,9 @@ public class JavaArrayList {
 
         System.out.println("----------");
 
+        animals.remove(0);
+        animals.remove("Cat");
+
         if ( animals.isEmpty()) {
             System.out.println("Animals is empty!");
         } else {
