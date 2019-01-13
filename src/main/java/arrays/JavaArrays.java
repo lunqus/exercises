@@ -9,7 +9,7 @@ public class JavaArrays {
 
         for (int i = 0; i < arrInts.length; i++) {
 
-            System.out.println("Item #: " + i);
+            System.out.println("Item #: " + arrInts[i]);
         }
 
         // Retrieves values by the index
