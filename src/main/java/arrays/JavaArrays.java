@@ -7,7 +7,8 @@ public class JavaArrays {
         // Arrays
         int[] arrInts = {2,4,5,8};
 
-        System.out.println(arrInts[0]);
+        // Retrieves values by the index
+        System.out.println(arrInts[3]);
     }
 
 }
