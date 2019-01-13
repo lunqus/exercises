@@ -31,6 +31,12 @@ public class JavaArrayList {
         animals.remove(0);
         animals.remove("Cat");
 
+        if (animals.contains("Dog")) {
+            animals.remove("Dog");
+        } else {
+            animals.add("Chicken");
+        }
+
         if ( animals.isEmpty()) {
             System.out.println("Animals is empty!");
         } else {
