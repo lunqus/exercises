@@ -11,7 +11,7 @@ public class HashMapsMain {
         users.put("Kealy", 34);
         users.put("Bonni", 25);
 
-        if (users.containsKey("Kealy")) {
+        if (users.containsKey("life")) {
             System.out.println("Yeh!");
         } else {
             System.out.println("Nay!");
@@ -19,6 +19,10 @@ public class HashMapsMain {
 
         System.out.println(users.get("Kealy"));
         System.out.println(users.get("Bonni"));
+
+        System.out.println("---------");
+
+        System.out.println("Values: " + users.values());
 
 
     }
