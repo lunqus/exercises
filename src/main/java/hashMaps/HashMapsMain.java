@@ -35,5 +35,12 @@ public class HashMapsMain {
 
             System.out.println(pair.getKey() + " = " + pair.getValue());
         }
+        System.out.println("---------");
+
+        HashMap<String, Integer> newUser = new HashMap<>();
+
+        newUser.put("Sue", 34);
+
+        System.out.println("Sue");
     }
 }
