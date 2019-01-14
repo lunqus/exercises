@@ -19,11 +19,11 @@ public class HashMapsMain {
 
         System.out.println(users.get("Kealy"));
         System.out.println(users.get("Bonni"));
-
         System.out.println("---------");
 
         System.out.println("Values: " + users.values());
+        System.out.println("---------");
 
-
+        System.out.println("Entire values: " + users.entrySet());
     }
 }
