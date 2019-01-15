@@ -1,11 +1,13 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class JavaArrays {
 
     public static void main(String[] args) {
 
         // Arrays
-        int[] arrInts       = {2,4,5,8};
+        int[] arrInts       = {2,0,6,5};
         String[] arrStrings = {"Johna", "Arao", "Ines", "Olga", "Fina"};
         boolean[] arrBools = {true, false, true, false};
 
@@ -72,6 +74,22 @@ public class JavaArrays {
             System.out.println("Name: " + newStringArray[i]);
         }
 
+
+        System.out.println("------------ Sorting Arrays------------");
+
+        Arrays.sort(arrStrings);
+        for (int i = 0; i < arrStrings.length; i++) {
+
+            System.out.println("Sorted my Siblings: " + arrStrings[i]);
+        }
+
+        System.out.println("------------ ============= ------------");
+
+        Arrays.sort(arrInts);
+        for (int i = 0; i < arrInts.length; i++) {
+
+            System.out.println("Sorted Item #: " + arrInts[i]);
+        }
     }
 
 }
