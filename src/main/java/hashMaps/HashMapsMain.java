@@ -33,7 +33,7 @@ public class HashMapsMain {
         while (it.hasNext()) {
             Map.Entry pair = (Map.Entry) it.next();
 
-            System.out.println(pair.getKey() + " = " + pair.getValue());
+            System.out.println("Key: " + pair.getKey() + " = " + " Value: " + pair.getValue());
         }
         System.out.println("---------");
 
