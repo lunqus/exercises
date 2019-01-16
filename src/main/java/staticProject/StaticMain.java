@@ -7,8 +7,10 @@ public class StaticMain {
         int myValue = -45;
         int secondValue = 56;
 
-        System.out.println(Math.abs(myValue));
-        System.out.println("Minimum: " + Math.min(myValue, secondValue));
+        int x = Math.min(myValue, secondValue);
+        int y = Math.abs(myValue);
+
+        System.out.println("X Min: " + x + ", Y Abs: " + y );
 
     }
 }
