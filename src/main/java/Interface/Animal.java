@@ -30,4 +30,7 @@ public class Animal {
     public void setFood(String food) {
         this.food = food;
     }
+
+    // Behaviors
+
 }
