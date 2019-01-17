@@ -17,6 +17,6 @@ public class InterfaceTest {
      *        ||
      *      Canine
      *        ||
-     *        Dog
+     *       Dog
      */
 }
