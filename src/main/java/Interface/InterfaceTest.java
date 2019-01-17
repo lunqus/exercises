@@ -10,6 +10,9 @@ public class InterfaceTest {
 
         System.out.println(myDog.getName());
 
+        myDog.beFriendly();
+        myDog.play();
+
     }
 
     /**
