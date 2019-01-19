@@ -18,6 +18,8 @@ public class Ball { // Outer class
             ballName = "Inside Inner Class Ball";
             ballSize = 23;
 
+            System.out.println(ballName + ", " + ballSize);
+
         }
 
     }
