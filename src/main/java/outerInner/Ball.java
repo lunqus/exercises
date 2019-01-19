@@ -6,6 +6,7 @@ public class Ball { // Outer class
     private int ballSize;
 
     public void setUpBall() {
+        new OrangeBall().setUpOrangeBall();
 
     }
 
