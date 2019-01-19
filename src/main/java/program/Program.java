@@ -11,8 +11,8 @@ public class Program {
     public static void main(String[] args) {
 
         Program p = new Program(127);
-        p.a += 73;
+        int res = p.a += 73;
 
-        System.out.print(p.a);
+        System.out.print(res);
     }
 }
