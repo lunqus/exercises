@@ -27,4 +27,11 @@ public class AutoboxingMain {
 
     //Unwrapping the Integer object
     int recoverInt = myObject.intValue();
+
+    //Doing same with char
+    char myChar = 'D';
+
+    Character myCharacter = new Character(myChar);
+
+    char recoverChar = myCharacter.charValue();
 }
