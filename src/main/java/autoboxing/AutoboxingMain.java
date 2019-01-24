@@ -20,4 +20,11 @@ public class AutoboxingMain {
 
     int myItem = myArray.get(0);
 
+    int b = 23;
+
+    //Physically wrapping my int primitive variable.
+    Integer myObject = new Integer(b);
+
+    //Unwrapping the Integer object
+    int recoverInt = myObject.intValue();
 }
