@@ -32,7 +32,10 @@ public class MainGeneric {
 
         Login<String> login = new Login<>("Paul", "password");
 
+        Login<Integer> login1 = new Login<>(23, 43);
+
         System.out.println(login.getName());
+        System.out.println(login1.getName());
 
     }
 
