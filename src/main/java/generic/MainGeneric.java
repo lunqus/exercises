@@ -1,5 +1,26 @@
 package generic;
 
+class Person {
+    private String name;
+    private String password;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
+
 class Login<T> {
     private T name;
     private T password;
@@ -37,6 +58,14 @@ public class MainGeneric {
         System.out.println(login.getName());
         System.out.println(login1.getName());
 
+
+        Person person = new Person();
+        person.setName("James");
+        person.setPassword("password");
+
+        Login<Person> login2 = new Login<>(person, person);
+
+        System.out.println(login2.getName().getName());
     }
 
 }
