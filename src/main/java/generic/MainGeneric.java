@@ -65,7 +65,7 @@ public class MainGeneric {
 
         Login<Person> login2 = new Login<>(person, person);
 
-        System.out.println(login2.getName().getName());
+        System.out.println(login2.getName().getName() + ", " + login2.getName().getPassword());
     }
 
 }
