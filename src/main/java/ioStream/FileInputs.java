@@ -2,6 +2,7 @@ package ioStream;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 
 public class FileInputs {
 
@@ -20,7 +21,9 @@ public class FileInputs {
                 System.out.print((char) content);
             }
 
-        } catch (Exception e) {
+        } catch (IOException e) {
+
+            e.printStackTrace();
 
         }
     }
