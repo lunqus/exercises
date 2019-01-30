@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class FileInputs {
+public class FileInputs { // Byte level of things
 
     public static void main(String[] args) {
 
