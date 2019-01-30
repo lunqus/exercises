@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class FileInputs { // Byte level of things
+public class FileInputs { // Byte level of things, when everything comes with bytes (integer) and convert it to char's
 
     public static void main(String[] args) {
 
