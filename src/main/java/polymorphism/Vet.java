@@ -2,7 +2,7 @@ package polymorphism;
 
 public class Vet {
 
-    public void giveShot(Animal animal){
+    public void doVet(Animal animal){
         animal.makeSound();
     }
 

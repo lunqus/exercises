@@ -4,20 +4,21 @@ public class MainAnimal {
 
     public static void main(String[] args) {
 
-        Vet myVet = new Vet();
+        Animal vetDog = new Dog();
 
         Cat myCat = new Cat();
         Dog myDog = new Dog();
 
-        myVet.giveShot(myCat);
-        myVet.giveShot(myDog);
+        Vet myVet = new Vet();
 
-//        myDog.makeSound();
-//        myDog.makeSound("Wooff!");
-//        myDog.makeSound("Woof", "very loud!");
+        myCat.makeSound("Meow ...");
+        myDog.makeSound();
 
-//        myDog.move();
-//        myDog.makeSound("another Woof!");
+        myVet.doVet(myCat);
+        myVet.doVet(myDog);
+
+        vetDog.makeSound("WauWauWau!!!s");
+        vetDog.makeSound();
 
     }
 
