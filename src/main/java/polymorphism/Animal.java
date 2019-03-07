@@ -2,6 +2,11 @@ package polymorphism;
 
 public class Animal {
 
+    private String name = "Animal name";
+
+    public String getName() {
+        return name;
+    }
 
     public void makeSound() {
 
@@ -11,6 +16,7 @@ public class Animal {
     public void makeSound(String soundType) {
 
         System.out.println(soundType);
+
     }
 
 }

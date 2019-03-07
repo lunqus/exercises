@@ -20,6 +20,9 @@ public class MainAnimal {
         vetDog.makeSound("WauWauWau!!!s");
         vetDog.makeSound();
 
+        Animal cat = new Animal();
+        System.out.println(cat.getName());
+
     }
 
 }
