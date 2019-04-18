@@ -5,7 +5,10 @@ import java.io.IOException;
 
 public class FileWriter {
 
-    public FileWriter(File file, boolean b) {}
+
+    public FileWriter(File file) {
+
+    }
 
     public static void main(String[] args) {
 
@@ -17,10 +20,9 @@ public class FileWriter {
     }
 
     public static void write(String text) throws IOException {
-        File file = new File("/Users/lunkus/IdeaProjects/exercises/src/main/java/fileWriter/file.txt");
-        file.setWritable(true);
-        file.setReadable(true);
-        FileWriter writer = new FileWriter(file, true);
+
+        File file = new File("file.txt");
+        FileWriter wr = new FileWriter(file);
 
     }
 
